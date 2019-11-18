@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>新闻网</title>
+<!--    <META HTTP-EQUIV="Refresh" CONTENT="1">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!--引用jQuery Mobile函数库-->
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #first > div:nth-of-type(1), #first > div:nth-of-type(3) {
+            background-color: deeppink;
+        }
+
+        #content {
+            text-align: center;
+            background-color: #fff;
+            padding: 0;
+        }
+
+        #content div {
+            width: 50%;
+            float: left;
+            padding: 35% 0;
+        }
+
+        #content div a {
+            width: 40%;
+            height: 40%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #content div a img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="js/jquery.mobile-1.4.0.min.css"/>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.0.min.js"></script>
+    <!--最佳化屏幕宽度-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+<!--第一页-->
+<div data-role="page" data-title="" id="first">
+    <div data-role="header">
+        <h1>广工新闻</h1>
+    </div>
+    <div data-role="content" id="content">
+		<div class="box1"><a href="ch16_00.htm"><img src="images/1.png" alt=""></a></div>
+		<div class="box2"><a href="https://v.qq.com/"><img src="images/2.jpg" alt=""></a></div>
+		<div class="box3"><a href="http://test_c.lgsj.ltd"><img src="images/3.jpg" alt=""></a></div>
+		<div class="box4"><a href="https://www.taobao.com"><img src="images/4.jpg" alt=""></a></div>
+    </div>
+    <div data-role="footer">
+        <h4>www.gdut.edu.cn&nbsp;&nbsp;&nbsp;&nbsp;000-123456<br>广州市番禺区大学城</h4>
+    </div>
+</div>
+</body>
+</html>
